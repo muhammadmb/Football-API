@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nwZoo6EGjjt807oxCS4W7DIdRKfbfXRp3e3iBSGZQNOgLG5RxcvZnvq/zp6mkeJZldjt1jEaf7K2JHaHS2Lz5w==",
+  "dgSpecHash": "JoS4WR74na1is3XfZz6SShmDQmHPxB/x4iSjTc9jJQe7n7iigud/PCVUTZTppTCHe7cSwszj5q4EKF2aHS94pQ==",
   "success": true,
   "projectFilePath": "F:\\Projects\\BackEndProjects\\Football API\\Football Players API\\Football Players API\\Football Players API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Blu-Ray\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Blu-Ray\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Blu-Ray\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Blu-Ray\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Blu-Ray\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.13\\microsoft.aspnetcore.jsonpatch.5.0.13.nupkg.sha512",
     "C:\\Users\\Blu-Ray\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.13\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.13.nupkg.sha512",
     "C:\\Users\\Blu-Ray\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
