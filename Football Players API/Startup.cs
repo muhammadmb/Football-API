@@ -1,4 +1,7 @@
 using Football_Players_API.AppContext;
+using Football_Players_API.Contracts;
+using Football_Players_API.Repositories;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
+using System;
 
 namespace Football_Players_API
 {
@@ -38,6 +42,11 @@ namespace Football_Players_API
             {
                 options.UseSqlServer(Configuration.GetConnectionString("AppContext"));
             });
+
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddSwaggerGen(c =>
             {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Football_Players_API.Repositories
+namespace Football_Players_API.Contracts
 {
     public interface IGenericRepository<T> where T : class
     {
@@ -14,6 +14,6 @@ namespace Football_Players_API.Repositories
 
         Task UpdateAsync(T entity);
 
-        Task DeleteAsync(Guid id);
+        Task DeleteAsync(T entity);
     }
 }

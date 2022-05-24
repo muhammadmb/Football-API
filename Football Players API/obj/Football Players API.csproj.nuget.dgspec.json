@@ -40,11 +40,15 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "AutoMapper": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation": {
               "target": "Package",
               "version": "[11.0.1, )"
             },
-            "MediatR": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
             },
