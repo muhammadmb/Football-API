@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Football_Players_API.Entities;
 using Football_Players_API.Features.Players.Commands.CreatePlayer;
+using Football_Players_API.Features.Players.Commands.DeletePlayer;
+using Football_Players_API.Features.Players.Commands.UpdatePlayer;
 using Football_Players_API.Modles.Player;
 
 namespace Football_Players_API.Profiles
@@ -21,6 +23,8 @@ namespace Football_Players_API.Profiles
                 opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}")
                 );
             CreateMap<Player, CreatePlayerCommand>().ReverseMap();
+            CreateMap<Player, UpdatePlayerCommand>().ReverseMap();
+            CreateMap<Player, DeletePlayerCommand>().ReverseMap();
         }
     }
 }

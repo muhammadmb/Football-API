@@ -1,4 +1,4 @@
-﻿using Football_Players_API.Entities;
+﻿using Football_Players_API.Modles.ClubPlayer;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -35,5 +35,7 @@ namespace Football_Players_API.Features.Players.Commands.CreatePlayer
         public int Assists { get; set; }
 
         public Guid NationalTeamId { get; set; }
+
+        public List<CreateClubPlayerDto> Clubs { get; set; }
     }
 }

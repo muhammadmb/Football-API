@@ -1,5 +1,8 @@
-﻿using Football_Players_API.Modles.Club;
+﻿using Football_Players_API.Entities;
+using Football_Players_API.Modles.Club;
+using Football_Players_API.Modles.NationalTeam;
 using System;
+using System.Collections.Generic;
 
 namespace Football_Players_API.Modles.Player
 {
@@ -19,6 +22,8 @@ namespace Football_Players_API.Modles.Player
 
         public string Position { get; set; }
 
-        public ClubDto Club { get; set; }
+        public List<ClubDto> Clubs { get; set; }
+
+        public NationalTeamDto NationalTeam { get; set; }
     }
 }

@@ -65,3 +65,9 @@ F:\Projects\BackEndProjects\Football API\Football Players API\Football Players A
 F:\Projects\BackEndProjects\Football API\Football Players API\Football Players API\bin\Debug\net5.0\FluentValidation.dll
 F:\Projects\BackEndProjects\Football API\Football Players API\Football Players API\bin\Debug\net5.0\MediatR.dll
 F:\Projects\BackEndProjects\Football API\Football Players API\Football Players API\bin\Debug\net5.0\MediatR.Contracts.dll
+F:\Projects\BackEndProjects\Football API\Football Players API\Football Players API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\Projects\BackEndProjects\Football API\Football Players API\Football Players API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+F:\Projects\BackEndProjects\Football API\Football Players API\Football Players API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Projects\BackEndProjects\Football API\Football Players API\Football Players API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+F:\Projects\BackEndProjects\Football API\Football Players API\Football Players API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+F:\Projects\BackEndProjects\Football API\Football Players API\Football Players API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

@@ -1,5 +1,7 @@
-﻿using MediatR;
+﻿using Football_Players_API.Modles.ClubPlayer;
+using MediatR;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Football_Players_API.Features.Players.Commands.UpdatePlayer
@@ -36,5 +38,7 @@ namespace Football_Players_API.Features.Players.Commands.UpdatePlayer
         public int Assists { get; set; }
 
         public Guid NationalTeamId { get; set; }
+
+        public List<UpdateClubPlayerDto> Clubs { get; set; }
     }
 }
