@@ -9,6 +9,7 @@ namespace Football_Players_API.Profiles
         public ClubProfile()
         {
             CreateMap<Club, ClubDto>().ReverseMap();
+            CreateMap<Club, ClubDetailDto>().ReverseMap();
         }
     }
 }
