@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Football_Players_API.Features.Clubs.Query.GetClubs
 {
-    public class GetClubsQuery : IRequest<List<ClubDto>>
+    public class GetClubsQuery : IRequest<List<ClubsQueryDto>>
     {
     }
 }

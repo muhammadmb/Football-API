@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Football_Players_API.Contracts;
-using Football_Players_API.Entities;
 using Football_Players_API.Modles.Club;
 using MediatR;
 using System.Collections.Generic;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Football_Players_API.Features.Clubs.Query.GetClubs
 {
-    public class GetClubsQueryHandler : IRequestHandler<GetClubsQuery, List<ClubDto>>
+    public class GetClubsQueryHandler : IRequestHandler<GetClubsQuery, List<ClubsQueryDto>>
     {
         private readonly IClubRepository _clubRepository;
         private readonly IMapper _mapper;
@@ -20,11 +19,11 @@ namespace Football_Players_API.Features.Clubs.Query.GetClubs
             _mapper = mapper;
         }
 
-        public async Task<List<ClubDto>> Handle(GetClubsQuery request, CancellationToken cancellationToken)
+        public async Task<List<ClubsQueryDto>> Handle(GetClubsQuery request, CancellationToken cancellationToken)
         {
             var clubs = await _clubRepository.GetAllAsync();
 
-            return _mapper.Map<List<ClubDto>>(clubs);
+            return _mapper.Map<List<ClubsQueryDto>>(clubs);
         }
     }
 }
