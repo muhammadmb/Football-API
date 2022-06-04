@@ -47,6 +47,7 @@ namespace Football_Players_API
             services.AddScoped<IPlayerRepository, PlayerRepository>();
             services.AddScoped<IClubRepository, ClubRepository>();
             services.AddScoped<IClubPlayerRepository, ClubPlayerRepository>();
+            services.AddScoped<INationalTeamRepository, NationalTeamRepository>();
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
